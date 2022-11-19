@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "http://thequesing.github.io/Portfolio",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^4.0.0",
