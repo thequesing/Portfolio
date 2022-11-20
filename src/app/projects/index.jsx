@@ -14,6 +14,7 @@ function Projects() {
               <div id='languages'>
                 <p>{ProjectsList.languages}</p>
               </div>
+              <p id="abandonado">{ProjectsList.abandonado}</p>
             </div>
           ))}
         </div>

@@ -17,6 +17,13 @@ const routes = [
     path: '*',
     element: <_404 />
   }
+  /*
+  {
+    path: '/game',
+    element: <Game />,
+    exact: true
+  }
+  */
 ]
 
 export const router = createBrowserRouter(routes)
