@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
-      - name: Install & build
-        run: npm i && npm run build
+      - name: Install & dev
+        run: npm install && npm run dev
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
